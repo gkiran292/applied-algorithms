@@ -37,7 +37,7 @@ def main(argv):
             'echo `python3 generate_input_sort_comparison.py -n 100000 -s 1 -r 50 -t {} -a 1 '
             '-o input_{}_sort_comparison.txt`'.format(input_type, input_type))
         os.system(
-            'echo `python3 assignment_sort_comparison.py -i input_{}_assignment1.txt -a 1 '
+            'echo `python3 assignment_sort_comparison.py -i input_{}_sort_comparison.txt -a 1 '
             '-o output_{}_sort_comparison.json`'.format(
                 input_type,
                 input_type))
