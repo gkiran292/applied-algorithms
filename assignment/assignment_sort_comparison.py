@@ -162,7 +162,7 @@ def main(argv):
     output_lst = []
 
     # To prevent the stack overflow in the worst case of quick sort
-    sys.setrecursionlimit(30000)
+    sys.setrecursionlimit(31000)
 
     sort_set = set(sort_types)
 
